@@ -18,10 +18,10 @@ $Tokens = {
 	{"mathpix", "139ee4b61be2e4abcfb1238d9eb99902"}
 };
 If[
-	MissingQ@PersistentValue["Mathpix", "Local"],
-	PersistentValue["Mathpix", "Local"] = $Tokens[[2]];
+	MissingQ@PersistentSymbol["Mathpix", "Local"],
+	PersistentSymbol["Mathpix", "Local"] = $Tokens[[2]];
 ];
-$MathpixToken = PersistentValue["Mathpix", "Local"];
+$MathpixToken = PersistentSymbol["Mathpix", "Local"];
 
 
 MathpixHTTP[img_] := Block[

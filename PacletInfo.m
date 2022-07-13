@@ -4,6 +4,6 @@
 
 Paclet[
 	Name -> "Mathpix",
-	Version -> "1.2.1",
-	MathematicaVersion -> "12.0+"
+	Version -> "1.2.2",
+	MathematicaVersion -> "12.3+"
 ]
