@@ -1,17 +1,25 @@
 # Mathpix
 
+Forked from [oovm/Mathpix](https://github.com/oovm/Mathpix).
+
 Use paclet manager to install the latest version:
 
 ```Mathematica
-ResourceFunction["GitHubInstall"]["GalAster", "Mathpix"]
+ResourceFunction["GitHubInstall"]["edisonlee55", "Mathpix"]
 ```
 
 Apply for your API Key from https://dashboard.mathpix.com/signup, with one thousand free credits per month
 
-Then set your key and load the function:
+Then set your key:
 
 ```Mathematica
 PersistentValue["Mathpix", "Local"]={"$KeyName","$KeyValue"};
+```
+
+Load the function:
+
+```Mathematica
+Needs["Mathpix`"]
 ```
 
 ## Usage
