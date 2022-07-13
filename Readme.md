@@ -22,6 +22,20 @@ Load the function:
 Needs["Mathpix`"]
 ```
 
+## Build
+
+To build the paclet manually, first import the `PacletTools`:
+
+```Mathematica
+Needs["PacletTools`"]
+```
+
+Then build the paclet:
+
+```Mathematica
+PacletBuild["<path to the paclet source directory>"]
+```
+
 ## Usage
 
 Mathpix receives a `Image`, or the `String` of path to the image, or `MathpixAPI` object.
