@@ -15,3 +15,6 @@ docs/.vuepress/public/
 
 # Notebook
 *.nb
+
+# PacletTools Build Directory
+build/
